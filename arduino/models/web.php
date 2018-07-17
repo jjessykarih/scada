@@ -10,7 +10,7 @@
 </head>
 <body>
 	<?php
-		$link = new PDO('mysql:host=localhost;dbname=placa', 'root', '');  
+		$link = new PDO('mysql:host=172.17.0.1;dbname=placa', 'root', 'root');  
 	?>
 	<div class="container-fluid">
     <div class="row">
